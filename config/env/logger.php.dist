@@ -1,0 +1,7 @@
+<?php
+
+const LOGGER = [
+    'on' => true,
+    'file' => '',
+    'stdout' => true
+];
