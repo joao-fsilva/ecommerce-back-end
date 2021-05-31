@@ -2,7 +2,7 @@
 
 /** @var $app \Slim\App */
 
-use App\Controller\UserController;
+use Ecommerce\Controller\UserController;
 use Slim\Psr7\Request;
 use Slim\Psr7\Response;
 

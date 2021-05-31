@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/../../bootstrap.php';
 
-use App\Command\User\UserListCommand;
+use Ecommerce\Command\User\UserListCommand;
 use DI\DependencyException;
 use DI\NotFoundException;
 use Symfony\Component\Console\Application;

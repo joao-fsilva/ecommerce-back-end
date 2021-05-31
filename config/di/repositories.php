@@ -1,7 +1,7 @@
 <?php
 
-use App\Entity\User\UserRepositoryInterface;
-use App\Infra\Db\Eloquent\Repository\UserRepository;
+use Ecommerce\Entity\User\UserRepositoryInterface;
+use Ecommerce\Infra\Db\Repository\UserRepository;
 use Psr\Container\ContainerInterface;
 
 return [

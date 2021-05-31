@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Infra\Logger;
+namespace Ecommerce\Infra\Logger;
 
 use Psr\Log\LoggerInterface;
 use Psr\Log\LoggerTrait;

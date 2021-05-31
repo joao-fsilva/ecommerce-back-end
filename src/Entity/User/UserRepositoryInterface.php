@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Entity\User;
+namespace Ecommerce\Entity\User;
 
 interface UserRepositoryInterface
 {

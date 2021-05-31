@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Infra\Db\Eloquent\Repository;
+namespace Ecommerce\Infra\Db\Repository;
 
-use App\Adapter\UserAdapter;
-use App\Entity\User\User;
-use App\Entity\User\UserRepositoryInterface;
-use App\Infra\Db\Eloquent\Models\User as UserModel;
+use Ecommerce\Adapter\UserAdapter;
+use Ecommerce\Entity\User\User;
+use Ecommerce\Entity\User\UserRepositoryInterface;
+use Ecommerce\Infra\Db\Models\User as UserModel;
 
 class UserRepository implements UserRepositoryInterface
 {

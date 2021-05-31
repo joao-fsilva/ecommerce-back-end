@@ -14,7 +14,7 @@
 
   "autoload": {
     "psr-4": {
-      "App\\": "src/"
+      "Ecommerce\\": "src/"
     },
     "files": [
       "config/env/db-connection-tests.php",

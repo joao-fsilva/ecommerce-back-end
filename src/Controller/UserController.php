@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Controller;
+namespace Ecommerce\Controller;
 
-use App\UseCase\User\ListUser;
+use Ecommerce\Application\User\ListUser;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 
@@ -19,7 +19,7 @@ class UserController extends AbstractController
     {
         $users = $this->listUser->execute();
 
-        $response->getBody()->write($users);
+        $response->getBody()->write('');
 
         return $this->successResponse($response);
     }
